@@ -1,0 +1,10 @@
+Env: "dev"
+
+DatabaseSettings:
+  DatabaseURL: "root:@tcp(127.0.0.1:3306)/shopping-db?parseTime=True&loc=Local"
+  DatabaseName: "shopping-db"
+  Username: "root"
+  Password: ""
+
+JwtSettings:
+  SecretKey: "duoke360.com"
